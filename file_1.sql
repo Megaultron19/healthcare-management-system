@@ -7,20 +7,6 @@ CREATE TABLE doctors (
     specialization VARCHAR(100) NOT NULL,
     phone VARCHAR(15),
     email VARCHAR(100) UNIQUE,
-    license_number VARCHAR(50) UNIQUE NOT NULL,
-    department VARCHAR(100),
-    experience_years INT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-);
-DROP TABLE  doctors;
-CREATE TABLE doctors (
-    doctor_id INT PRIMARY KEY AUTO_INCREMENT,
-    first_name VARCHAR(50) NOT NULL,
-    last_name VARCHAR(50) NOT NULL,
-    specialization VARCHAR(100) NOT NULL,
-    phone VARCHAR(15),
-    email VARCHAR(100) UNIQUE,
     department VARCHAR(100)
 );
 CREATE TABLE patients (
