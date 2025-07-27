@@ -1,4 +1,5 @@
 **Healthcare Management System**
+
 A comprehensive healthcare management system built with Flask and MySQL for managing patient records, appointments, prescriptions, and medical history with a user-friendly web interface.
 
 🚀 Features 
@@ -60,13 +61,13 @@ A comprehensive healthcare management system built with Flask and MySQL for mana
 
 🛠️ Tech Stack
 
-Backend: Python Flask
+1.Backend: Python Flask
 
-Database: MySQL
+2.Database: MySQL
 
-Frontend: HTML, CSS, JavaScript
+3.Frontend: HTML, CSS, JavaScript
 
-Database Connector: mysql-connector-python
+4.Database Connector: mysql-connector-python
 
 
 📋 Prerequisites
@@ -81,32 +82,32 @@ pip (Python package installer)
 
 1.Clone the repository
 
-bashgit clone https://github.com/yourusername/healthcare-management-system.git
+a) bashgit clone https://github.com/yourusername/healthcare-management-system.git
 
-cd healthcare-management-system
+b) cd healthcare-management-system
 
 2.Install required packages
 
-bashpip install flask mysql-connector-python
+a) bashpip install flask mysql-connector-python
 
 3.Set up MySQL Database
 
-sqlCREATE DATABASE healthcare_management;
+a) sqlCREATE DATABASE healthcare_management;
 
 4.Run the database schema
 
-Execute the SQL commands from database_schema.sql to create tables
+a) Execute the SQL commands from database_schema.sql to create tables
 
-Optionally, run sample_data.sql to populate with test data
+b) Optionally, run sample_data.sql to populate with test data
 
 
 4.Configure Database Connection
 
-Open app.py
+a) Open app.py
 
-Update the DB_CONFIG section with your MySQL credentials:
+b) Update the DB_CONFIG section with your MySQL credentials:
 
-pythonDB_CONFIG = {
+c) pythonDB_CONFIG = {
 
     'host': 'localhost',
     
@@ -123,73 +124,113 @@ pythonDB_CONFIG = {
 
 5.Run the application
 
-python app.py
+a) python app.py
 
 6.Access the application
 
-Open your browser and navigate to: http://localhost:5000
+a) Open your browser and navigate to: http://localhost:5000
 
 🖥️ Usage
 
-Web Interface
+a) Web Interface
 
-Navigate to http://localhost:5000 for the main dashboard
+b) Navigate to http://localhost:5000 for the main dashboard
 
-Use the intuitive interface to search and manage healthcare data
+c) Use the intuitive interface to search and manage healthcare data
 
-Each section provides specific functionality for different data types
+d) Each section provides specific functionality for different data types
 
 
 API Endpoints
 
-Doctors
-GET /api/doctors - Get all doctors
-GET /api/doctors/{id} - Get doctor by ID
-GET /api/doctors/specialization/{specialization} - Get doctors by specialization
+1. Doctors
+   
+a)GET /api/doctors - Get all doctors
 
-Patients
-GET /api/patients/{id} - Get patient by ID
-GET /api/patients/search/{name} - Search patients by last name
+b)GET /api/doctors/{id} - Get doctor by ID
 
-Medical History
-GET /api/medical-history/patient/{patient_id} - Get patient's medical history
-GET /api/medical-history/doctor/{doctor_id} - Get medical history by doctor
+c)GET /api/doctors/specialization/{specialization} - Get doctors by specialization
 
-Prescriptions
-GET /api/prescriptions/patient/{patient_id} - Get patient's prescriptions
-GET /api/prescriptions/status/{status} - Get prescriptions by status
 
-Appointments
-GET /api/appointments/patient/{patient_id} - Get patient's appointments
-GET /api/appointments/date/{date} - Get appointments by date
-GET /api/appointments/status/{status} - Get appointments by status
+2. Patients
+
+a)GET /api/patients/{id} - Get patient by ID
+
+b)GET /api/patients/search/{name} - Search patients by last name
+
+
+3. Medical History
+
+a)GET /api/medical-history/patient/{patient_id} - Get patient's medical history
+
+b)GET /api/medical-history/doctor/{doctor_id} - Get medical history by doctor
+
+
+4. Prescriptions
+   
+a)GET /api/prescriptions/patient/{patient_id} - Get patient's prescriptions
+
+b)GET /api/prescriptions/status/{status} - Get prescriptions by status
+
+
+5. Appointments
+   
+a)GET /api/appointments/patient/{patient_id} - Get patient's appointments
+
+b)GET /api/appointments/date/{date} - Get appointments by date
+
+c)GET /api/appointments/status/{status} - Get appointments by status
+
 
 The system uses the following main tables:
+
 1.doctors - Doctor information and specializations
+
 2.patients - Patient demographics and medical info
+
 3.medical_history - Visit records and diagnoses
+
 4.prescriptions - Medication prescriptions and tracking
+
 5.appointments - Appointment scheduling and status
 
 
+
 🤝 Contributing
+
 1.Fork the repository
+
 2.Create a feature branch (git checkout -b feature/AmazingFeature)
+
 3.Commit your changes (git commit -m 'Add some AmazingFeature')
+
 4.Push to the branch (git push origin feature/AmazingFeature)
+
 5.Open a Pull Request
 
+
 👨‍💻 Author
+
 Harshit Singh
+
 GitHub:Megaultron19 
+
 Email:harshitkatiyar2003@gmail.com
 
+
 Acknowledgments
+
 Flask documentation and community
+
 MySQL documentation
+
 Healthcare industry standards and practices
 
 📞 Support
+
 If you encounter any issues or have questions:
+
 1.Create a new issue with detailed information
+
 2.Contact the maintainer
+
