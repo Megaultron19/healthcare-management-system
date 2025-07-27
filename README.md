@@ -208,6 +208,14 @@ The system uses the following main tables:
 
 5.Open a Pull Request
 
+## ⚠️ Security Notice
+
+This repository contains SAMPLE DATA ONLY for development purposes.
+
+- All patient information is fictional
+  
+- Do not use in production without proper security review
+
 
 👨‍💻 Author
 
