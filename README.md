@@ -5,58 +5,58 @@ A comprehensive healthcare management system built with Flask and MySQL for mana
 
 👨‍⚕️ Doctor Management
 
-View all doctors
+1.View all doctors
 
-Search doctors by ID
+2.Search doctors by ID
 
-Filter doctors by specialization
+3.Filter doctors by specialization
 
-Complete doctor profiles with contact information
+4.Complete doctor profiles with contact information
 
 
 👥 Patient Management
 
-Search patients by ID
+1.Search patients by ID
 
-Find patients by last name
+2.Find patients by last name
 
-Comprehensive patient profiles with medical information
+3.Comprehensive patient profiles with medical information
 
-Emergency contact details and allergy tracking
+4.Emergency contact details and allergy tracking
 
 
 📋 Medical History
 
-Complete patient medical history tracking
+1.Complete patient medical history tracking
 
-Visit records with detailed diagnosis and symptoms
+2.Visit records with detailed diagnosis and symptoms
 
-Vital signs storage (JSON format)
+3.Vital signs storage (JSON format)
 
-Treatment and medication tracking
+4.Treatment and medication tracking
 
-Doctor-patient visit relationships
+5.Doctor-patient visit relationships
 
 
 💊 Prescription Management
 
-Patient-specific prescription tracking
+1.Patient-specific prescription tracking
 
-Medication details with dosage and frequency
+2.Medication details with dosage and frequency
 
-Prescription status monitoring (Active/Completed/Discontinued)
+3.Prescription status monitoring (Active/Completed/Discontinued)
 
-Refill tracking and instructions
+4.Refill tracking and instructions
 
 📅 Appointment System
 
-Patient appointment scheduling
+1.Patient appointment scheduling
 
-Appointment status tracking (Scheduled/Completed/Cancelled/No-Show)
+2.Appointment status tracking (Scheduled/Completed/Cancelled/No-Show)
 
-Date-based appointment viewing
+3.Date-based appointment viewing
 
-Doctor-patient appointment relationships
+4.Doctor-patient appointment relationships
 
 🛠️ Tech Stack
 
