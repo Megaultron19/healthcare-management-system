@@ -82,7 +82,7 @@ pip (Python package installer)
 
 1.Clone the repository
 
-a) bashgit clone https://github.com/yourusername/healthcare-management-system.git
+a) bashgit clone https://github.com/Megaultron19/healthcare-management-system.git
 
 b) cd healthcare-management-system
 
