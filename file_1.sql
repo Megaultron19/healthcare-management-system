@@ -33,7 +33,7 @@ CREATE TABLE medical_history (
     chief_complaint TEXT,
     diagnosis TEXT,
     symptoms TEXT,
-    vital_signs JSON, -- Store blood pressure, temperature, pulse, etc.
+    vital_signs JSON, 
     treatment_provided TEXT,
     notes TEXT,
     follow_up_date DATE,
@@ -46,7 +46,7 @@ CREATE TABLE prescriptions (
     prescription_id INT PRIMARY KEY AUTO_INCREMENT,
     patient_id INT NOT NULL,
     doctor_id INT NOT NULL,
-    history_id INT, -- Link to specific medical history entry
+    history_id INT, 
     prescription_date DATE NOT NULL,
     medication_name VARCHAR(200) NOT NULL,
     dosage VARCHAR(100) NOT NULL,
