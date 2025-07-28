@@ -238,7 +238,7 @@ Healthcare industry standards and practices
 
 If you encounter any issues or have questions:
 
-1.Create a new issue with detailed information
+1.Create a new issue with detailed information.
 
-2.Contact the maintainer
+2.Contact the maintainer.
 
